@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  grid-column: span 2;
+  cursor: pointer;
+}
+
+input:nth-child(5),
+input:nth-child(6) {
+  grid-column: span 1;
+}
+
+textarea {
+  grid-column: span 2;
+  height: 100px;
+}
+
+.badge-list {
+  margin-top: 20px;
+}
+
+.badge {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.badge h2 {
+  margin: 0;
+  padding: 10px;
+  color: white;
+}

@@ -1,0 +1,91 @@
+{
+    "appetizers": [
+        {
+            "name": "French Fries",
+            "ingredients": ["Potato", "Salt"],
+            "price": 2,
+            "description": "Hot and thick-cut french fries."
+        },
+        {
+            "name": "Pickle",
+            "ingredients": ["Pickle"],
+            "price": 1,
+            "description": "Juicy and pickle that goes great with sandwiches."
+        },
+        {
+            "name": "Chips",
+            "ingredients": ["Potato", "Salt", "Oil"],
+            "price": 1.5,
+            "description": "Classic flavored potato chips."
+        }
+    ],
+    "Hot Sandwiches": [
+        {
+            "name": "Philly Cheesesteak",
+            "ingredients": ["Steak", "American Cheese", "Italian Bread", "Onions", "Green Peppers", "Tomatoes"],
+            "price": 8,
+            "description": "Thin-chopped steak topped with melted cheese and cooked with onions and peppers on an Italian bun."
+        },
+        {
+            "name": "Calzone",
+            "ingredients": ["Pepperoni", "American Cheese", "Crust", "Sausage", "Tomatoes"],
+            "price": 7,
+            "description": "Pepperoni and sausage with melted cheese folded in a buttery pizza crust."
+        }
+    ],
+    "Cold Sandwiches": [
+        {
+            "name": "Ham and Cheese",
+            "ingredients": ["Ham", "American Cheese", "Bread"],
+            "price": 5,
+            "description": "Ham and cheese melted together and placed on bread."
+        },
+        {
+            "name": "Cold Cut Trio",
+            "ingredients": ["Ham", "Turkey", "Salami", "Lettuce", "Swiss Cheese", "Tomatoes", "Banana Peppers", "Onions", "Bread"],
+            "price": 7,
+            "description": "Three different types of turkey meat on your choice of bun with vegetables and cheese."
+        },
+        {
+            "name": "Italian",
+            "ingredients": ["Pepperoni", "Italian Sausage", "Salami", "Lettuce", "Provolone Cheese", "Tomatoes", "Bread"],
+            "price": 7,
+            "description": "Italian meats and cheese on an Italian bun"
+        }
+    ],
+    "Desserts": [
+        {
+            "name": "Key-Lime Pie",
+            "ingredients": ["Limes", "Crust", "Sugar"],
+            "price": 3,
+            "description": "Glorious and delectable Key-Lime pie!"
+        },
+        {
+            "name": "Chocolate Chip Cookie",
+            "ingredients": ["Chocolate", "Sugar", "Milk", "Butter"],
+            "price": 1,
+            "description": "Gooey and warm chocalate chip cookie"
+        }
+
+
+    ],
+    "Drinks": [
+        {
+            "name": "Sprite",
+            "price": 1
+        },
+        {
+            "name": "Water",
+            "price": 0
+        },
+        {
+            "name": "Coca-Cola",
+            "price": 1
+        },
+        {
+            "name": "Ice-Tea",
+            "price": 1
+        }
+
+    ]
+}

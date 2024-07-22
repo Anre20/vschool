@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Forms</title>
+</head>
+<h1>Anre's Airlines</h1>
+<body>
+    <form name="myForm">
+        <input type="text" placeholder="First Name" required/>
+        <input type="text" placeholder="Last Name" required/>
+        <br>
+    </br>
+
+        Male:   <input type="radio" name="gender" value="Male"/>
+        Female: <input type="radio" name="gender" value="Female"/>
+
+        What is your age?
+            <input type="number" placeholder="Age" required/>
+            <br>
+    </br>
+
+        What is your destination?
+        Philadelphia:   <input type="radio" name="city" value="Philadelphia"/>
+        Tokyo: <input type="radio" name="city" value="Tokyo"/>
+        Paris: <input type="radio" name="city" value="Paris"/>
+        <br>
+    </br>
+
+            <select name="dietary-restrictions">
+                <option value="No Restrictions">No Restrictions</option>
+                <option value="Vegan">Vegan</option>
+                <option value="Kosher">Kosher</option>
+                <option value="Lactose Free">Lactose Free</option>
+            </select>
+
+
+            <button>Submit</button>
+        </form>
+
+    <script src="travel-form.js"></script>
+</body>
+</html>

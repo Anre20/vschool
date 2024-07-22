@@ -1,0 +1,16 @@
+.pet {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.pet h3 {
+    margin: 0 0 5px;
+}
+
+.pet p {
+    margin: 0;
+}

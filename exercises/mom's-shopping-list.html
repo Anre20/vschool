@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Shopping List</title>
+</head>
+<h1>Mom's Shopping List</h1>
+<body>
+    <form id="groceryForm">
+        <input type="text" id="grocery" placeholder="Grocery Item" required/>
+        <button type="submit">Submit</button>
+    </form>
+    <ul id="groceryList"></ul>
+
+    <script>
+        const form = document.getElementById('groceryForm');
+        const input = document.getElementById('grocery');
+        const list = document.getElementById('groceryList');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const itemText = input.value.trim();
+            if (itemText !== '') {
+                addItemToList(itemText);
+                input.value = '';
+            }
+        });
+
+        function addItemToList(itemText) {
+            const li = document.createElement('li');
+            li.textContent = itemText;
+
+            const removeButton = document.createElement('button');
+            removeButton.textContent = 'Remove';
+            removeButton.addEventListener('click', function() {
+                li.remove();
+            });
+
+            li.appendChild(removeButton);
+            list.appendChild(li);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #colorSquare {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+        }
+    </style>
+    </head>
+    <body>
+
+    <div id="colorSquare"></div>
+
+    <script>
+        const colorSquare = document.getElementById("colorSquare");
+
+        colorSquare.addEventListener("mouseover", function() {
+            this.style.backgroundColor = "blue";
+        });
+
+        colorSquare.addEventListener("mousedown", function() {
+            this.style.backgroundColor = "red";
+        });
+
+        colorSquare.addEventListener("mouseup", function() {
+            this.style.backgroundColor = "yellow";
+        });
+
+        colorSquare.addEventListener("dblclick", function() {
+            this.style.backgroundColor = "green";
+        });
+
+        window.addEventListener("wheel", function() {
+            colorSquare.style.backgroundColor = "orange";
+        });
+
+        document.addEventListener("keydown", function(e) {
+            const key = e.key.toLowerCase();
+            if (key === "b") {
+                colorSquare.style.backgroundColor = "blue";
+            } else if (key === "r") {
+                colorSquare.style.backgroundColor = "red";
+            } else if (key === "y") {
+                colorSquare.style.backgroundColor = "yellow";
+            } else if (key === "g") {
+                colorSquare.style.backgroundColor = "green";
+            } else if (key === "o") {
+                colorSquare.style.backgroundColor = "orange";
+            }
+        });
+    </script>
+
+    </body>
+    </html>

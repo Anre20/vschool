@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+
+.row:nth-child(1) {
+  gap: 30px;
+}
+
+
+.row:nth-child(2) {
+  gap: 30px;
+}
+
+
+.row:nth-child(4) {
+  gap: 10px;
+}
+  .box {
+    flex: 1;
+    height: 220px;
+    border-radius: 10px;
+  }
+
+  .large-box {
+    background-color: #8DC63F;
+    flex: 7;
+  }
+
+  .small-box {
+    background-color: #E76E34;
+    flex: 3;
+  }
+
+  .one {
+    background-color: #ED0205;
+  }
+
+  .two {
+    background-color: #3B00FF;
+  }
+
+  .three {
+    background-color: #2A8001;
+    flex: 3;
+  }
+
+  .four {
+    background-color: #800080;
+    flex: 7;
+  }
+
+  .five {
+    background-color: #FAFF02;
+  }
